@@ -68,12 +68,12 @@ public class 填充封闭区域 {
 //        for (int i = 1;i < m - 1;i ++) {
 //            for (int j = 1;j < n - 1;j ++) {
 //                if (board[i][j] == 'O' && legal(board, i, j)) {
-//                    dfs(board,visit,i,j);
+//                    backTracking(board,visit,i,j);
 //                }
 //            }
 //        }
 //    }
-//    public boolean dfs(char[][] board, int [][]visit, int x, int y) {
+//    public boolean backTracking(char[][] board, int [][]visit, int x, int y) {
 //        if (x < 0 || y < 0 || x >= board.length || y >= board[0].length) return false;
 //        if (!legal(board, x, y)) return false;
 //        if (board[x][y] == 'X') return true;
@@ -84,13 +84,13 @@ public class 填充封闭区域 {
 //            board[x][y] = 'X';
 //            return true;
 //        }
-//        boolean left = dfs(board,visit,x - 1,y);
+//        boolean left = backTracking(board,visit,x - 1,y);
 //        if (!left) return false;
-//        boolean right = dfs(board,visit,x + 1,y);
+//        boolean right = backTracking(board,visit,x + 1,y);
 //        if (!right) return false;
-//        boolean up = dfs(board,visit,x,y + 1);
+//        boolean up = backTracking(board,visit,x,y + 1);
 //        if (!up) return false;
-//        boolean down = dfs(board,visit,x,y - 1);
+//        boolean down = backTracking(board,visit,x,y - 1);
 //        if (!down) return false;
 //
 //        board[x][y] = 'X';
