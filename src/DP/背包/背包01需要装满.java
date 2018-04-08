@@ -35,7 +35,7 @@ public class 背包01需要装满 {
     // 优化一维
     public static int knapsack2(int W, int N, int[] weights, int[] values) {
         int []dp = new int[W + 1];
-        //前0个物品永远无法装满1-W重量的背包。置为负无穷，dp累加时只考虑前面已经装满的清空。
+        //前0个物品永远无法装满1-W重量的背包。置为负无穷，dp累加时只考虑前面已经装满的情况。
         Arrays.fill(dp, Integer.MIN_VALUE);
         //前0个物品刚好可以装满容量为0的背包，此时价值为0，以此为初始值进行累加。
         dp[0]= 0;

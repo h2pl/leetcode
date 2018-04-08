@@ -17,6 +17,7 @@ public class 背包01不用装满 {
     public static int knapsack(int W, int N, int[] weights, int[] values) {
 
         int[][] dp = new int[N + 1][W + 1];
+        //不用装满就设为0，需要装满的话，求最大值时设为负无穷，求最小值时设为正无穷。
         //物品数为0时，取法初始化为0，代表不能装满，但是可以进行累加。因为不需要装满。
         Arrays.fill(dp[0], 0);
         for (int i = 1; i <= N; i++) {

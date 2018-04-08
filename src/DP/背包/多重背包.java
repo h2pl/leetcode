@@ -7,6 +7,7 @@ import java.util.Arrays;
  */
 public class 多重背包 {
     //首先是正规解法，和完全背包类似。
+    //多重背包限制了每个物品的数量，介于01和完全背包之间。
     public static int knapsack(int W, int N, int[] weights, int[] values, int []nums) {
         int[][] dp = new int[N + 1][W + 1];
         //物品数为0时，取法初始化为0，代表不能装满，但是可以进行累加。因为不需要装满。
