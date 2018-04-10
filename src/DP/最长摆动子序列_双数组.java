@@ -3,7 +3,7 @@ package DP;
 /**
  * Created by 周杰伦 on 2018/4/4.
  */
-public class 最长摆动子序列 {
+public class 最长摆动子序列_双数组 {
     public static void main(String[] args) {
         int []a = {1,7,4,9,2,5};
         int []b = {1,17,5,10,13,15,10,5,16,8};
