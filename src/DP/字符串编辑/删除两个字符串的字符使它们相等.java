@@ -3,7 +3,7 @@ package DP.字符串编辑;
 /**
  * Created by 周杰伦 on 2018/4/9.
  */
-public class 字符串编辑 {
+public class 删除两个字符串的字符使它们相等 {
     public static void main(String[] args) {
         String a = "eat";
         String b = "sea";
