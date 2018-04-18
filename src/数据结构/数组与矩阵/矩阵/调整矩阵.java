@@ -1,4 +1,4 @@
-package 数据结构.数组与矩阵;
+package 数据结构.数组与矩阵.矩阵;
 
 /**
  * Created by 周杰伦 on 2018/4/17.
