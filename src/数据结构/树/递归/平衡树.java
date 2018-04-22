@@ -1,4 +1,6 @@
-package 数据结构.树;
+package 数据结构.树.递归;
+
+import 数据结构.树.TreeNode;
 
 /**
  * Created by 周杰伦 on 2018/4/20.
