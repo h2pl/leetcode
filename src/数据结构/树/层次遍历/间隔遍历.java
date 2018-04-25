@@ -1,4 +1,4 @@
-package 数据结构.树.遍历;
+package 数据结构.树.层次遍历;
 
 import 数据结构.树.TreeNode;
 
