@@ -8,6 +8,7 @@ import 数据结构.树.TreeNode;
 public class 从有序数组中构造二叉查找树 {
 //    Leetcode : 108. Convert Sorted Array to Binary Search Tree (Easy)
 
+    //很有难度啊，必须知道二叉查找树可以用二分法来构造子树，每个中点都是一个根节点。
     public TreeNode sortedArrayToBST(int[] nums) {
         return toBST(nums, 0, nums.length - 1);
     }
