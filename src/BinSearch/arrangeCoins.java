@@ -3,7 +3,7 @@ package BinSearch;
 /**
  * Created by 周杰伦 on 2018/3/16.
  */
-public class    arrangeCoins {
+public class arrangeCoins {
     public int arrangeCoins(int n) {
         if (n <= 1) {
             return n;
